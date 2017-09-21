@@ -20,7 +20,8 @@ function johnLennonFacts(facts){
 function iLoveTheBeatles(n){
   var emptArray = []
     do {
-    emptArray.push(console.log('I love the Beatles!'))
+    emptArray.push('I love the Beatles!')
     n++
   } while (n<15)
+  return emptArray
 }
